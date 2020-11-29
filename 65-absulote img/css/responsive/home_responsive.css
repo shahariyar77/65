@@ -1,0 +1,60 @@
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   By:youthenlight.com
+   ========================================================================== */
+
+
+/* (1920x1080) Full HD Display */
+
+@media  screen and (max-width: 1920px) {}
+
+/* (1366x768) WXGA Display */
+@media  screen and (max-width: 1366px) {}
+/*---------------- iPads (portrait and landscape) ---------------------- */
+@media only screen and (min-device-width: 980px) and (max-device-width: 1280px) {
+  
+    
+ .hand-abslute {
+	position: absolute;
+	right: 0;
+	top: 260px;
+}
+	---------------- Nav manu Start ---------------------- */ 
+    
+}
+    
+/*------------------- iPads (portrait and landscape) -------------------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 980px) {
+    .hand-abslute {
+	position: relative;
+	right: 0;
+	bottom: 0;
+}
+	.feture-area {
+	text-align: center;
+}
+	.section-tittle {
+	margin-bottom: 50px;
+}
+  }   
+ 
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) {
+    .hand-abslute {
+	position: relative;
+	right: 0;
+	bottom: 0;
+}
+	.feture-area {
+	text-align: center;
+	padding-top: 37px;
+}
+	.section-tittle {
+	margin-bottom: 30px;
+}
+  }   
+}   
+  
